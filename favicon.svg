@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="favicon.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-70.714286"
+     inkscape:cy="495.71429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.98999999;fill:#00ffff;fill-opacity:1"
+       id="path2989"
+       sodipodi:cx="404.28571"
+       sodipodi:cy="482.36218"
+       sodipodi:rx="321.42856"
+       sodipodi:ry="321.42856"
+       d="m 725.71426,482.36218 a 321.42856,321.42856 0 1 1 -642.857113,0 321.42856,321.42856 0 1 1 642.857113,0 z"
+       transform="matrix(1.1244444,0,0,1.1022222,-78.882541,-22.165279)" />
+    <path
+       style="opacity:0.98999999000000005;fill:#51b898;fill-opacity:0.74509805"
+       d="M 327.57143,859.31615 C 173.34623,835.0261 55.768689,727.51858 23.34226,581.14295 13.242604,535.55227 14.474832,474.57838 26.487565,425.50504 58.97174,292.80359 173.36403,187.42175 311.86966,162.60193 c 33.42925,-5.99043 94.79865,-5.98173 128.55891,0.0182 136.84229,24.31992 250.00352,128.42405 284.20317,261.45631 25.64046,99.73817 3.31612,210.97048 -59.06317,294.28571 -18.61828,24.86706 -59.12863,62.985 -86.28451,81.18886 -63.70037,42.7014 -128.69123,62.0316 -205.99835,61.27006 -21.21428,-0.20886 -41.78571,-0.8862 -45.71428,-1.50495 l 0,0 z"
+       id="path2993"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2995"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:AR BERKLEY;font-style:normal;font-weight:normal;font-size:120px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:AR BERKLEY;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion2997"><rect
+           id="rect2999"
+           width="214.28572"
+           height="202.85715"
+           x="148.57143"
+           y="295.21933"
+           style="-inkscape-font-specification:AR BERKLEY;font-family:AR BERKLEY;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:120px" /></flowRegion><flowPara
+         id="flowPara3001"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3003"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:AR BERKLEY;-inkscape-font-specification:AR BERKLEY"
+       transform="matrix(2.0835979,0,0,1.8877497,-260.60529,-259.28809)"><flowRegion
+         id="flowRegion3005"><rect
+           id="rect3007"
+           width="360"
+           height="362.85715"
+           x="151.42857"
+           y="286.64789"
+           style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:AR BERKLEY;-inkscape-font-specification:AR BERKLEY" /></flowRegion><flowPara
+         id="flowPara3009"
+         style="font-size:200px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:AR BERKLEY;-inkscape-font-specification:AR BERKLEY">CB</flowPara></flowRoot>  </g>
+</svg>

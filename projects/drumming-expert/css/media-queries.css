@@ -1,0 +1,88 @@
+@media screen and (min-width: 25.93em) {
+  /* line 3, media-queries.scss */
+  .banner-text {
+    font-size: 2em;
+  }
+
+  /* line 7, media-queries.scss */
+  .content-img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 32.81em) {
+  /* line 16, media-queries.scss */
+  .banner-text {
+    font-size: 2.75em;
+  }
+
+  /* line 20, media-queries.scss */
+  #main-book {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    display: table;
+    border-bottom: 1px solid #ccc;
+  }
+
+  /* line 28, media-queries.scss */
+  #main-book img {
+    width: 70%;
+  }
+
+  /* line 32, media-queries.scss */
+  #main-book h2 {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  /* line 37, media-queries.scss */
+  .content-img {
+    width: 70%;
+  }
+
+  /* line 41, media-queries.scss */
+  .lessons a {
+    display: inline-block;
+    width: 45%;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 48em) {
+  /* line 53, media-queries.scss */
+  .banner-text {
+    font-size: 4em;
+  }
+
+  /* line 57, media-queries.scss */
+  .vid-reviews {
+    width: 65%;
+    float: left;
+  }
+
+  /* line 62, media-queries.scss */
+  .bonus-info {
+    width: 30%;
+    float: right;
+    background-color: #E5DFCF;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #ccc;
+  }
+
+  /* line 71, media-queries.scss */
+  .bonus-info h3 {
+    color: #222;
+    margin-top: 10px;
+  }
+
+  /* line 76, media-queries.scss */
+  .bottom-info {
+    clear: left;
+    width: 65%;
+  }
+
+  /* line 81, media-queries.scss */
+  .content-img {
+    width: 50%;
+  }
+}

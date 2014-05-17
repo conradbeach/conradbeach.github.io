@@ -1,0 +1,206 @@
+/************************
+General
+*************************/
+/* line 5, style.scss */
+.underlined {
+  text-decoration: underline;
+}
+
+/* line 9, style.scss */
+.centered {
+  text-align: center;
+}
+
+/************************
+Body
+*************************/
+/* line 19, style.scss */
+body {
+  background-color: #FFF8E6;
+}
+
+/* line 23, style.scss */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 28, style.scss */
+h3, h4 {
+  color: #cc433d;
+  border-bottom: solid 1px #ccc;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 35, style.scss */
+h4 {
+  font-size: 1.3em;
+}
+
+/* line 40, style.scss */
+.main-content {
+  float: left;
+  margin-top: 50px;
+}
+
+/* line 45, style.scss */
+.main-content img {
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* line 52, style.scss */
+.subtitle {
+  margin-top: -15px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+/* line 58, style.scss */
+video {
+  margin: 30px 0 35px;
+  width: 100%;
+}
+
+/* line 63, style.scss */
+.profile-pic {
+  margin-bottom: 15px;
+}
+
+/* line 67, style.scss */
+hr {
+  margin: 30px 0 30px;
+}
+
+/************************
+Sidebar
+*************************/
+/* line 77, style.scss */
+.secondary-content {
+  float: left;
+  padding: 20px;
+  margin-top: 125px;
+  margin-left: 30px;
+  background-color: #E5DFCF;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #ccc;
+}
+
+/* line 87, style.scss */
+.secondary-content img {
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+/* line 92, style.scss */
+.secondary-content hr {
+  border-color: #999;
+}
+
+/************************
+Orbit Slider
+*************************/
+/* line 103, style.scss */
+.orbit-container .orbit-slide-number,
+.orbit-container .orbit-timer {
+  display: none;
+}
+
+/* line 107, style.scss */
+.orbit-container .orbit-prev {
+  left: -4%;
+}
+
+/* line 111, style.scss */
+.orbit-container .orbit-next {
+  right: -4%;
+}
+
+/************************
+Nav
+*************************/
+/* line 121, style.scss */
+nav {
+  border-bottom: 100px;
+  box-shadow: 0 7px 8px -5px;
+}
+
+/* line 126, style.scss */
+.name img {
+  margin-right: 15px;
+  width: 30px;
+}
+
+/* line 131, style.scss */
+.top-bar-section li a:not(.button):hover {
+  background: #007BA0 !important;
+}
+
+/************************
+Footer
+*************************/
+/* line 141, style.scss */
+footer {
+  clear: left;
+}
+
+/* line 145, style.scss */
+footer p {
+  font-size: .75em;
+  text-align: center;
+}
+
+/************************
+Page: Home
+*************************/
+/* line 156, style.scss */
+.banner {
+  background-image: url("../img/backgrounds/congruent_outline.png");
+  /*  Credit for this background goes to subtlepatterns.com */
+  display: table;
+  width: 100%;
+  height: 103%;
+  border-bottom: solid gray 5px;
+}
+
+/* line 165, style.scss */
+.banner-text {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 4%;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 175, style.scss */
+#main-intro-vid {
+  margin-top: 25px;
+}
+
+/************************
+Page: Sales Page
+*************************/
+/* line 185, style.scss */
+.order-button:hover {
+  opacity: 0.7;
+}
+
+/************************
+Page: All Lessons
+*************************/
+/* line 195, style.scss */
+.lessons a {
+  display: block;
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+/* line 201, style.scss */
+.all-lessons {
+  margin-top: 50px;
+}

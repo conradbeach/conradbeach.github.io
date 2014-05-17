@@ -1,0 +1,10 @@
+-Books-courses page needs more work on media queries. The picture of the book and headline next to it look poor at certain resolutions.
+
+-Add a commenting system to the lesson pages.
+
+-Add an about page that will serve as a resume of sorts to demonstrate dad's competence.
+
+-Clarify how the videos I receive by signing up with my email are different from the free video lessons accessible on the site.
+
+-Make the bottom links that lead to the next lesson on the lesson pages look better.
+

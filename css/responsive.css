@@ -1,0 +1,138 @@
+@media screen and (min-width: 480px) {
+
+  /**********************
+  TWO COLUMN LAYOUT
+  ***********************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+
+
+  /**********************
+  PAGE: HOME
+  ***********************/
+
+  .profile-photo {
+    float: left;
+    margin: 5% 5% 10px 0;
+  }
+
+  #welcome {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em;
+}
+
+
+
+  /**********************
+  PAGE: PORTFOLIO
+  ***********************/
+
+  #gallery li {
+    width: 28.33333%;
+  }
+
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+
+
+
+  /**********************
+  PAGE: ABOUT
+  ***********************/
+
+  .about-photo {
+    float: right;
+    max-width: 60%;
+    margin: 30px 10px 20px 25px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 660px) {
+
+  /**********************
+  HEADER
+  ***********************/
+
+  nav {
+    background: none;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  nav li {
+    padding: 8px;
+    background-color: #367B7F;
+    border-radius: 8px;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1.logo-text {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #367B7F;
+    margin-bottom: 60px;
+  }
+
+  hr {
+    width: 70%;
+  }
+
+
+
+  /**********************
+  PAGE: HOME
+  ***********************/
+
+  #welcome {
+    font-size: 2.25em;
+  }
+
+
+  /**********************
+  PAGE: ABOUT
+  ***********************/
+
+  .about-photo {
+    max-width: 40%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

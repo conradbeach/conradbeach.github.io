@@ -1,0 +1,1 @@
+-On a small screen, the profile pic on the home page looks bad. In firefox, it disappears.
