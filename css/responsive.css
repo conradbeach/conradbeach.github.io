@@ -21,14 +21,17 @@
   ***********************/
 
   .profile-photo {
-    float: left;
-    margin: 5% 5% 10px 0;
+    margin: 0 auto 10%;
   }
 
   #welcome {
     font-family: 'Playfair Display SC', serif;
     font-size: 2em;
-}
+  }
+
+  .cta {
+    max-width: 75%;
+  }
 
 
 
@@ -111,8 +114,17 @@
   PAGE: HOME
   ***********************/
 
+  .profile-photo {
+    float: left;
+    margin: 0 auto 10%;
+  }
+
   #welcome {
     font-size: 2.25em;
+  }
+
+  .cta {
+    max-width: 60%;
   }
 
 
