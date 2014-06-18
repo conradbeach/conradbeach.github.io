@@ -156,6 +156,10 @@ PAGE: HOME
   color: #333;
 }
 
+#welcome strong {
+  font-size: 1.5em;
+}
+
 .cta {
   margin: 15% auto 25%;
   text-align: center;
@@ -219,6 +223,11 @@ PAGE: ABOUT
   margin-bottom: 20px;
 }
 
+.about-headline {
+  text-align: center;
+  font-size: 2em;
+}
+
 
 /**********************
 PAGE: CONTACT
@@ -254,6 +263,20 @@ PAGE: CONTACT
 
 .contact-info li.email:hover {
   text-decoration: underline;
+}
+
+.contact-headline {
+  font-size: 2em;
+}
+
+
+
+/**********************
+PAGE: HOME
+***********************/
+
+.resume-headline {
+  font-size: 2em;
 }
 
 
