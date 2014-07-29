@@ -1,1 +1,9 @@
--On a small screen, the profile pic on the home page looks bad. In firefox, it disappears.
+-In Firefox, the profile pic on my homepage disappears at smaller screen sizes.
+-Social icons in IE look pixelated.
+-Text for homepage's call to action is poorly aligned at certain screen sizes.
+-In Safari, the profile pic on the homepage doesn't float to the center when the layout switches to one column.
+-In Safari, around 1000px viewport width, the project links on the portfolio page drop below and cover up the bottom <hr>.
+
+
+Ideas:
+-Alter the portfolio page. Make the project links squares with drop shadows like the image on the drummingexpert project page.
