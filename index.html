@@ -1,54 +1,212 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
+<!--
+  Miniport by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+  <head>
+    <title>Conrad Beach | Back-end Developer</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-desktop.css" />
+      <link href="<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>" rel="stylesheet" type="text/css">
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+  </head>
+  <body>
 
-<head>
-  <title>Conrad Beach | Web Developer</title>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link href="http://fonts.googleapis.com/css?family=Playfair+Display+SC|Open+Sans:400italic,400,800" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-</head>
+    <!-- Nav -->
+      <nav id="nav">
+        <ul class="container">
+          <!-- TODO: Highlight my name in a better way. Consider making the text larger and/or a different color. -->
+          <!-- FIXME: Nav links are a little too close together on mobile devices. They can be hard to use. -->
+          <li class="logo"><a href="#top">Conrad Beach | Back-end Developer</a></li>
+          <br>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-
-<body>
-  <header>
-    <a href="index.html" id="logo">
-      <h1 class="logo-text">Conrad Beach</h1>
-      <h2 class="logo-text">Aspiring Back-end Web Developer</h2>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div id="wrapper">
-    <section>
-      <img src="img/profile-pic-small.jpg" alt="Photo of Conrad Beach" class="profile-photo">
-      <div id="welcome">
-        <strong>Hey. I'm Conrad.</strong>
-        <p>Thanks for stopping by.</p>
-        <p>I'm a soon to be back-end developer located in Logan, UT. I love coding stuff for the web.</p>
+    <!-- Home -->
+    <!-- Add some color to above the fold. It's a little bland. -->
+      <div class="wrapper style1 first">
+        <article class="container" id="top">
+          <div class="row">
+            <div class="4u">
+              <!-- TODO: Add border around profile pic. -->
+              <span class="image"><img src="images/profile-main.jpg" alt="Conrad Beach" /></span>
+            </div>
+            <div class="8u">
+              <header>
+                <h1>Hey. I'm <strong>Conrad Beach</strong>.</h1>
+              </header>
+              <p>I'm an aspiring <strong>Back-end Web Developer</strong> located in Logan, Utah. I'm a family man and a Ruby on Rails fanboy. I love building stuff for the web.</p>
+              <blockquote>It's not at all important to get it right the first time. It's vitally important to get it right the last time. <br>-Andy Hunt &amp; Dave Thomas</blockquote>
+              <a href="#work" class="button big scrolly">Learn about what I do</a>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="cta">
-        <a href="portfolio.html">Check out some of the things I've built.</a>
+
+    <!-- Work -->
+      <!-- FIXME: The images in this section look a bit grainy at high res. -->
+      <div class="wrapper style2">
+        <article id="work">
+          <header>
+            <h2>Things I Work With</h2>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="4u">
+                <section class="box style1">
+                  <img src="images/GitHub-Mark-120px-plus.png" alt="GitHub Logo">
+                  <h3>Git</h3>
+                  <p>Version control with Git is great. It's a powerful tool for any developer. I'm also a big fan of GitHub. Gotta' love open source.</p>
+                </section>
+              </div>
+              <div class="4u">
+                <section class="box style1">
+                  <img src="images/ruby.png" alt="Ruby Logo">
+                  <h3>Ruby &amp; Ruby on Rails</h3>
+                  <p>I fell in love with Ruby on Rails pretty quickly. I'm a huge fan of the power of rails, the elegance of the Ruby language and the great community of developers that surrounds both.</p>
+                </section>
+              </div>
+              <div class="4u">
+                <section class="box style1">
+                  <img src="images/angular-js-logo.png" alt="AngularJS Logo">
+                  <h3>JavaScript</h3>
+                  <p>Ok, so I really don't know much JavaScript yet. But it's on the roadmap. Especially frameworks such as Angular, Ember and Backbone.</p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
-    </section>
-  </div>
-  <footer>
-    <hr>
-    <a href="https://github.com/conradbeach"><img src="img/github-logo-webtreatsetc.png" alt="Github Logo" class="social-icon"></a>
-    <a href="https://www.facebook.com/conrad.k.beach"><img src="img/facebook-logo-webtreatsetc.png" alt="Facebook Logo" class="social-icon"></a>
-    <a href="https://www.linkedin.com/in/conradkbeach"><img src="img/linkedin-logo-webtreatsetc.png" alt="LinkedIn" class="social-icon"></a>
-    <p>&copy;2014 Conrad Beach</p>
-  </footer>
 
-</body>
+    <!-- Portfolio -->
+      <div class="wrapper style3">
+        <article id="portfolio">
+          <header>
+            <h2>Projects I've Worked On</h2>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="2u">
+                <!-- FIXME: Fix this hacky way of centering the projects. -->
+                <br>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <a href="projects/drumming-expert/index.html" class="image featured"><img src="images/drumming-expert-screenshot-gallery.png" alt="" /></a>
+                  <h3><a href="projects/drumming-expert/index.html">DrummingExpert.com</a></h3>
+                  <p>Front-end redesign using HTML5, CSS3 and Foundation 5</p>
+                  <h4><a href="projects/drumming-expert/index.html">Project</a> | <a href="https://github.com/conradbeach/Drumming-Expert">Source Code</a></h4>
+                </article>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <span class="image featured"><img src="images/coding-screenshot.png" alt="" /></span>
+                  <h3>Budgeting App</h3>
+                  <p>Built with Ruby on Rails and probably some JavaScript</p>
+                  <h4>(In the works)</h4>
+                </article>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p>Seriously, there's some awesome stuff coming down the pipe. Just give me like 3 minutes.</p>
+<!--            <a href="#contact" class="button big scrolly">Get in touch with me</a>-->
+          </footer>
+        </article>
+      </div>
 
+    <!-- About Me -->
+      <div class="wrapper style2">
+        <article id="about">
+          <header>
+            <h2>A Little About Me</h2>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="4u">
+                <span class="image box"><img src="images/tabitha-me.jpg" alt="" /></span>
+              </div>
+              <div class="8u">
+                <p>You know that feeling when you're using a well made application? It has the right features, works well, easily does what you want it to and looks great? I love that. I love quality software. Geeking out about a sweet new Android or web app is a common occurrence around my house. The kind of stuff Google, Apple or Basecamp put out. That's what makes the web awesome in my mind. There are so many great applications and software tools available these days. I want to be part of the industry that makes that happen.</p>
+                <p>Right now, I'm learning as much as I can about web development. I spent a few months learning the basics of front-end development. I enjoyed it quite a bit, but I feel like the back-end is where I really want to be. Specifically, I'm learning how to use Ruby on Rails to build killer web apps.</p>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Find out if offsets are built into the CSS -->
+              <div class="1u">
+              </div>
+              <div class="10u">
+                <p>I sincerely love the web. I love the power, connectivity and information it provides. I would love nothing more than to start working for a high quality web development firm building awesome applications and sites. The web is already an amazing place. I genuinely want to be a part of making it better.</p>
+                <p><i>When I'm not coding, I enjoy hanging out with my wife and being outdoors.</i></p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    <!-- Contact -->
+      <div class="wrapper style4">
+        <article id="contact" class="container small">
+          <header>
+            <h2>Feel free to get in touch.</h2>
+            <p>Questions, comments, feedback, job offers or anything web development related. I'd love to hear from you. </p>
+            <hr>
+          </header>
+          <div>
+            <div class="row">
+              <div class="12u">
+                <h3>Email &amp; Phone</h3>
+                <p>conradbeach@gmail.com <br> (435)232-9842</p>
+                <h3>Find me on...</h3>
+                <ul class="social">
+                  <li><a href="https://github.com/conradbeach" class="icon fa-github"><span class="label">Github</span></a></li>
+                  <li><a href="https://www.facebook.com/conrad.k.beach" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                  <li><a href="https://twitter.com/conradkbeach" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/conradkbeach" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                  <!--
+                  <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+                  <li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+                  <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                  <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+                  <li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+                  <li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+                  <li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+                  <li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+                  <li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+                  <li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+                  <li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+                  <li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+                  -->
+                </ul>
+                <hr />
+              </div>
+            </div>
+          </div>
+          <footer>
+            <ul id="copyright">
+              <li>&copy;2014 Conrad Beach </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+
+  </body>
 </html>
