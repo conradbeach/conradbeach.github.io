@@ -19,7 +19,6 @@
       <link rel="stylesheet" href="css/skel.css" />
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/style-desktop.css" />
-      <link href="<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>" rel="stylesheet" type="text/css">
     </noscript>
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
@@ -32,7 +31,8 @@
           <!-- TODO: Highlight my name in a better way. Consider making the text larger and/or a different color. -->
           <!-- FIXME: Nav links are a little too close together on mobile devices. They can be hard to use. -->
           <li class="logo"><a href="#top">Conrad Beach | Back-end Developer</a></li>
-          <br>
+        </ul>
+        <ul class="container">
           <li><a href="#work">Work</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About Me</a></li>
@@ -174,7 +174,11 @@
             <div class="row">
               <div class="12u">
                 <h3>Email &amp; Phone</h3>
-                <p>conradbeach@gmail.com <br> (435)232-9842</p>
+                <!-- FIXME: Remove text decoration from tel and email links. Make it look like the HTML5Up link below. -->
+                <ul id="contact-info">
+                  <li><a href="mailto:conradbeach@gmail.com">conradbeach@gmail.com</a></li>
+                  <li><a href="tel:435-232-9842">(435)232-9842</a></li>
+                </ul>
                 <h3>Find me on...</h3>
                 <ul class="social">
                   <li><a href="https://github.com/conradbeach" class="icon fa-github"><span class="label">Github</span></a></li>
@@ -202,7 +206,8 @@
           </div>
           <footer>
             <ul id="copyright">
-              <li>&copy;2014 Conrad Beach </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>&copy;2014 Conrad Beach </li>
+              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
           </footer>
         </article>
