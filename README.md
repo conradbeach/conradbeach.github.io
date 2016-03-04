@@ -1,6 +1,6 @@
-conradkbeach.com
+conradcodes.com
 ================
 
-This is the source code for my personal website. Nothing too special.
+Source code for my personal website.
 
 Thanks to HTML5Up.net for the design.
