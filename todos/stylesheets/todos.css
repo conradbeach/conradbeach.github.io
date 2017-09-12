@@ -1,0 +1,378 @@
+/* General */
+
+body {
+  width: 90%;
+  max-width: 1200px;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+.circle {
+  background-color: #6b7292;
+  color: #a3a7bb;
+  border-radius: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.highlighted {
+  color: #fff;
+  background-color: #148fd5;
+}
+
+/* Nav */
+
+nav {
+  background-color: #464f77;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.8em;
+  float: left;
+  width: 335px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 75px 35px 75px 135px;
+}
+
+nav h1 {
+  font-weight: 200;
+  font-size: 1.25em;
+}
+
+nav h1 span {
+  margin-top: 4px;
+}
+
+nav h1:hover,
+nav li:hover {
+  cursor: pointer;
+}
+
+nav h1::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  padding-right: 10px;
+  margin-left: -36px;
+  content: "";
+}
+
+nav .todos h1::before {
+  background: transparent url("../images/list-icon.png") 0 0 no-repeat;
+}
+
+nav .completed h1::before {
+  background: transparent url("../images/completed-icon.png") 0 0 no-repeat;
+}
+
+nav .todos {
+  margin-bottom: 70px;
+}
+
+nav .todos h1 {
+  float: left;
+  width: 100%;
+}
+
+nav .todos::after {
+  display: block;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+
+nav .todos li {
+  clear: left;
+  float: left;
+  width: 100%;
+}
+
+nav span {
+  float: right;
+}
+
+nav li {
+  color: #a3a7bb;
+  margin-top: 25px;
+}
+
+nav .completed li {
+  text-decoration: line-through;
+}
+
+/* Nav Selected Element */
+
+nav .selected {
+  background-color: transparent;
+  position: relative;
+  z-index: 0;
+}
+
+nav li.selected {
+  color: #fff;
+}
+
+nav .selected::after {
+  content: " ";
+  position: absolute;
+  width: 335px;
+  top: -12px;
+  left: -135px;
+  z-index: -1;
+  background-color: #383f5f;
+}
+
+nav h1.selected::after {
+  height: 50px;
+}
+
+nav li.selected::after {
+  height: 40px;
+}
+
+/* Nav Toggle */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked ~ nav {
+  display: block;
+}
+
+input:checked ~ main {
+  margin-left: 335px;
+}
+
+input:checked ~ main label {
+  left: 355px;
+}
+
+main label {
+  display: none;
+  position: absolute;
+  top: 22px;
+  left: 20px;
+}
+
+main label:hover {
+  cursor: pointer;
+}
+
+/* Main */
+
+main {
+  background-color: #fff;
+  color: #060606;
+  padding-top: 75px;
+  padding-left: 20px;
+  margin-left: 335px;
+}
+
+main h1 {
+  font-size: 1.25em;
+  display: inline-block;
+  margin-right: 18px;
+  margin-bottom: 45px;
+}
+
+main h1 + p {
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+}
+
+main > a {
+  color: #148fd5;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 18px;
+  padding-left: 12px;
+}
+
+main > a::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 13px;
+  height: 13px;
+  padding-right: 15px;
+  content: "";
+  background: transparent url("../images/new-item-icon.png") 0 0 no-repeat;
+}
+
+main li {
+  padding: 18px 0 18px 12px;
+  border-top: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  display: block;
+}
+
+main li:hover {
+  color: #148fd5;
+  cursor: pointer;
+}
+
+main li p {
+  display: inline-block;
+}
+
+main li time {
+  margin-left: 50px;
+  color: #b3b3b3;
+}
+
+main li a {
+  float: right;
+}
+
+main li span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  padding-right: 15px;
+  content: "";
+  background: transparent url("../images/unchecked-checkbox.png") 0 0 no-repeat;
+}
+
+main li.complete p {
+  color: #b3b3b3;
+  text-decoration: line-through;
+}
+
+main li.complete span {
+  background: transparent url("../images/checked-checkbox.png") 0 0 no-repeat;
+}
+
+main ul a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 17px;
+  content: "";
+  background: transparent url("../images/trash-bin.png") 0 0 no-repeat;
+}
+
+/* Modal */
+
+.hidden {
+  display: none;
+}
+
+aside::before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modal {
+  position: absolute;
+  top: 110px;
+  left: 440px;
+  padding: 30px;
+  width: 550px;
+  height: 350px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.modal label,
+.modal input,
+.modal textarea {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.modal input,
+.modal textarea {
+  font-size: 1em;
+  border: 1px solid #b3b3b3;
+  width: 400px;
+  padding-left: 5px;
+}
+
+.modal label {
+  width: 115px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.modal input {
+  height: 35px;
+}
+
+.modal input[type="number"] {
+  width: 120px;
+}
+
+.modal textarea {
+  font: normal 16px Helvetica, Arial, sans-serif;
+  resize: none;
+  height: 140px;
+  padding-top: 8px;
+}
+
+.modal .button {
+  width: 185px;
+  border: none;
+  background-color: #148fd5;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* FIXME: Probably not a good selector choice. */
+.modal input:nth-child(9) {
+  margin-left: 120px;
+  margin-right: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1080px) {
+  .modal {
+    left: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  main {
+    margin-left: 0;
+  }
+
+  main label {
+    display: block;
+  }
+
+  .modal {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  nav {
+    width: 235px;
+    padding-left: 45px;
+  }
+
+  input:checked ~ main {
+    margin-left: 235px;
+  }
+
+  input:checked ~ main label {
+    left: 255px;
+  }
+
+  .selected::before {
+    width: 325px;
+  }
+}
