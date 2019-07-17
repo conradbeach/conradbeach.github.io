@@ -873,13 +873,13 @@ form textarea {
 form .actions:last-child {
   margin-bottom: 0; }
 form ::-webkit-input-placeholder {
-  color: #555 !important; }
+  color: #aaa !important; }
 form :-moz-placeholder {
-  color: #555 !important; }
+  color: #aaa !important; }
 form ::-moz-placeholder {
-  color: #555 !important; }
+  color: #aaa !important; }
 form :-ms-input-placeholder {
-  color: #555 !important; }
+  color: #aaa !important; }
 form ::-moz-focus-inner {
   border: 0; }
 
