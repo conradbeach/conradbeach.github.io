@@ -927,6 +927,10 @@ article:last-child {
     display: block;
     width: 100%;
     margin: 0 0 2em 0; }
+  .image.small {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 1em; }
   .image.left {
     float: left;
     margin: 0 2em 2em 0; }
