@@ -1228,7 +1228,7 @@ ul.actions {
     #nav li.logo {
       font-family: 'Josefin Sans', sans-serif;
       font-size: 1.5em;
-      margin-bottom: -12px; }
+      margin-bottom: -5px; }
   #nav a {
     -moz-transition: background-color .2s ease-in-out;
     -webkit-transition: background-color .2s ease-in-out;
