@@ -1221,7 +1221,8 @@ ul.actions {
   #nav ul {
     margin-bottom: 0;
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-bottom: 0.03em; }
   #nav li {
     display: inline-block;
     padding-left: 0; }
