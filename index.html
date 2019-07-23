@@ -1,259 +1,343 @@
 <!DOCTYPE HTML>
 <!--
   Miniport by HTML5 UP
-  html5up.net | @n33co
+  html5up.net | @ajlkn
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
   <head>
     <title>Conrad Beach | Web Developer</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-desktop.css" />
-    </noscript>
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body class="is-preload">
 
     <!-- Nav -->
       <nav id="nav">
-        <ul class="container">
-          <!-- FIXME: Nav links are a little too close together on mobile devices. They can be hard to use. -->
+        <ul>
           <li class="logo"><a href="#top">Conrad Beach | Web Developer</a></li>
         </ul>
-        <ul class="container">
-          <li><a href="#skills">Skills</a></li>
+        <ul>
           <li><a href="#beliefs">Beliefs</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#weaknesses">Weaknesses</a></li>
           <li><a href="#work">Work</a></li>
-          <li><a href="#about">About Me</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
     <!-- Home -->
-    <!-- Add some color to above the fold. It's a little bland. -->
-      <div class="wrapper style1 first">
-        <article class="container" id="top">
+      <article id="top" class="wrapper style1">
+        <div class="container">
           <div class="row">
-            <div class="4u">
-              <!-- TODO: Add border around profile pic. -->
-              <span class="image"><img src="images/profile-alt-small.jpg" alt="Conrad Beach" /></span>
+            <div class="col-4 col-5-large col-12-medium">
+              <span class="image fit"><img src="images/profile-latest.jpg" alt="Conrad Beach" /></span>
             </div>
-            <div class="8u">
+            <div class="col-8 col-7-large col-12-medium">
               <header>
-                <h1>Hey. I'm <strong>Conrad Beach</strong>.</h1>
+                <h1>Hi. I'm <strong>Conrad Beach</strong>.</h1>
               </header>
-              <p>I'm a <strong>Web Developer</strong> located in Logan, Utah. I'm a family man and a <strong>Ruby</strong> fanboy. I love building stuff for the web.</p>
-              <!-- <blockquote>It's not at all important to get it right the first time. It's vitally important to get it right the last time. <br>- Andy Hunt &amp; Dave Thomas</blockquote> -->
-              <a href="#skills" class="button big scrolly">Learn about what I do</a>
+              <p>I'm a <strong>Back-end Web Developer</strong> located in Logan, Utah. I'm a family man and a Ruby fanboy. I love building stuff for the web.</p>
+              <a href="#beliefs" class="button large scrolly">Learn about what I do</a>
             </div>
           </div>
-        </article>
-      </div>
-
-    <!-- Skills -->
-      <div class="wrapper style2">
-        <article id="skills">
-          <header>
-            <h2>Things I Work With</h2>
-          </header>
-          <div class="container">
-            <div class="row">
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/rspec.png" alt="RSpec Logo">
-                  <h3>Automated Testing</h3>
-                  <p>I'm a big believer in automated testing. Well tested code
-                    is easier to work with, easier to depend on and just makes
-                    for better software.</p>
-                </section>
-              </div>
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/ruby.png" alt="Ruby Logo">
-                  <h3>Ruby &amp; Ruby Frameworks</h3>
-                  <p>I fell in love with Ruby pretty quickly. I'm a huge fan of the elegance of the Ruby language, the power of frameworks like Rails and the great community of developers that surrounds both.</p>
-                </section>
-              </div>
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/react.png" alt="React Logo">
-                  <h3>JavaScript</h3>
-                  <p>I really enjoy working with JavaScript. It's getting some
-                    awesome improvements as a language, and there are a lot of
-                    excellent JS tools available these days. Mostly, I've used
-                    React and Redux.</p>
-                </section>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
+        </div>
+      </article>
 
     <!-- Beliefs -->
-      <div class="wrapper style3">
-        <article id="beliefs">
+      <article id="beliefs" class="wrapper style2">
+        <div class="container">
           <header>
             <h2>Things I Believe In</h2>
           </header>
-          <div class="container">
-            <div class="row">
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/handshake.png" width="150px" alt="Handshake">
-                  <h3>Treating People Right</h3>
-                  <p>Honesty, ethics, dependability, thoughtfulness. These things are genuinely important to me and my work.</p>
-                </section>
-              </div>
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/smile.png" width="150px" alt="Smile">
-                  <h3>Solving Problems</h3>
-                  <p>Ultimately, good software comes down to solving people's problems. I think Google gets it right when they say, "Focus on the user and all else will follow."</p>
-                </section>
-              </div>
-              <div class="4u">
-                <section class="box style1">
-                  <img src="images/code.png" width="150px" alt="Code">
-                  <h3>Constantly Learning</h3>
-                  <p>I'm always working to learn more about my profession and looking for ways to improve as a developer.</p>
-                </section>
-              </div>
+          <div class="row aln-center">
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-hands-helping"></span>
+                <h3>Being Good</h3>
+                <p>I care a lot about being a genuinely good person and treating peole right. I strive to be kind, generous and ethical in everything I do. I want to be the kind of person who's easy and enriching to work with, the kind of guy that you're really grateful to have on your team.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-globe-americas"></span>
+                <h3>Doing Good</h3>
+                <p>I'm passionate about doing work that makes a positive difference in the world. It doesn't need to be as glamorous as curing cancer or something like that, but it does need to be genuinely valuable. It needs to solve real problems and make people's lives better. Too many businesses, teams, etc. really only exist to make money; I think that's a shame, and I think we can do better.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-seedling"></span>
+                <h3>Constant Improvement</h3>
+                <p>I'm genuinely committed to the constant pursuit of mastering
+                my field of work. I've chosen software development as my career, and I intend to become the best I possibly can at it. I don't want to be a halfway decent developer; I want to be a great one. I'm always working to learn more about what I do and looking for ways to improve. I'm definitely not one of the best developers out there and likely never will be, but I'm on the path to mastery and I intend to be on it for a very long time.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-drafting-compass"></span>
+                <h3>Craftsmanship</h3>
+                <p>I focus on writing code that works correctly, is reliable and is easy to maintain. I aim to build products that meet needs and are easy and enjoyable to use. Well-made software can do amazing things. Poorly made software can be a real pain. I work hard to consistently produce the well-made kind. I care a great deal about the quality of my work, and I take pride in it. I put a lot of effort into keeping my schedule, health and other factors in balance so that I can stay fresh and do my best work.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-laugh-beam"></span>
+                <h3>Joy</h3>
+                <p>Ultimately, I choose to be a developer because I love doing it! I love writing code; I love creating beautiful, useful software. Building things with nothing more than a laptop and some know-how is a blast. I find joy in it, and I want the work I do to create joy in the lives of others as well.</p>
+              </section>
             </div>
           </div>
-        </article>
-      </div>
+        </div>
+      </article>
+
+    <!-- Skills -->
+      <article id="skills" class="wrapper style3">
+        <div class="container">
+          <header>
+            <h2>Things I Work With</h2>
+          </header>
+          <div class="row aln-center">
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <a class="image small" href="https://www.ruby-lang.org/">
+                  <img src="images/ruby.png" alt="Ruby logo">
+                </a>
+                <h3>Ruby</h3>
+                <p>I fell in love with the Ruby language pretty quickly. I'm a
+                huge fan of the elegance of the syntax and it's focus on
+                programmer happiness. Writing Ruby feels natural and easy
+                while still providing powerful tools and constructs. Most of the
+                code I've written so far in my career has been Ruby.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <a class="image small" href="https://rubyonrails.org/">
+                  <img src="images/ruby_on_rails.png" alt="Ruby on Rails logo">
+                </a>
+                <h3>Rails</h3>
+                <p>I think Rails is a fantastic framework for web development. I
+                really appreciate the focus on convention over configuration and
+                sensible defaults. It also pursues Ruby's goals of ephasizing programmer
+                happiness and enabling beautiful code. I'm impressed by how
+                productive I can be when I work with Rails. Even having been
+                around as long as it has, I'm still excited by the progress and
+                additions being made to the framework.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <a class="image small" href="http://rspec.info/">
+                  <img src="images/rspec.png" alt="RSpec logo">
+                </a>
+                <h3>Automated Testing</h3>
+                <p>I'm a big believer in automated testing. Well tested code is
+                easier to work with, easier to depend on and just makes for
+                better software. I don't typically practice true TDD, but I
+                write tests frequently as I write implementation code. I don't
+                think of writing tests as only an investment in the future (though it
+                certainly is that); I think writing tests improves the quality of
+                your code and your software immediately, and there aren't very
+                many cases where you wouldn't want to write tests.</p>
+              </section>
+            </div>
+            <div class="col-6 col-12-small">
+              <section class="box style1">
+                <a class="image small" href="https://git-scm.com/">
+                  <img src="images/git.png" alt="Git logo">
+                </a>
+                <h3>Version Control with Git</h3>
+                <p>I really enjoy managing source code with Git. I think there's a lot of value in not only putting your code under source control, but in taking the time to do it well. I think a well-crafted Git history in a project can be a really valuable resource. It can be helpful to your team (or you) in the future and also improve the quality of your code as you're committing it. It's common for me to write lengthy committ messages and take the time to revise my Git history as I'm working on a project.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <footer class="content-section">
+          I'm also really interested in Elixir and Phoenix. I haven't done much with them yet though. 
+        </footer>
+      </article>
+
+      <article id="weaknesses" class="wrapper style2">
+        <div class="container">
+          <header>
+            <h2>Things I'm Not Very Good At</h2>
+          </header>
+          <div class="row aln-center">
+            <div class="col-4 col-6-medium col-12-small">
+              <section class="box style1">
+                <span class="icon featured brands fa-js-square"></span>
+                <h3>Front-end Development</h3>
+                <p>I wouldn’t describe myself as a full-stack developer. I’ve done quite a bit of front-end development in the past and I can still do it if I need to, but it’s not my current area of expertise. I prefer back-end development and that’s what I’ve focused on for the last little while in my career. I enjoy back-end work more and I feel like I have more natural aptitude and value to contribute in that area.</p>
+              </section>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-tachometer-alt"></span>
+                <h3>Performance Optimization</h3>
+                <p>I’m conscious of basic performance requirements and pay attention to the performance of the code I write, but there haven’t been too many projects I’ve worked on thus far where performance was a high priority. I’m not the kind of guy who can eek out every drop of performance from an application. (If I was I probably wouldn’t be using Rails, right? <i class="far fa-grin-tears"></i> I kid, I kid. Rails is great.)</p>
+              </section>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <section class="box style1">
+                <span class="icon featured solid fa-microchip"></span>
+                <h3>Computer Science</h3>
+                <p>I don’t have a traditional computer science background and
+                heavy computer sciency topics have never been terribly
+                interesting to me. If something requires lots of math,
+                sophisticated algorithms or other such things, I don't have a
+                lot of supporting skills to offer.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <footer class="content-section">
+          Obviously, there are more than just 3 things that I’m not very good at. I just wanted to list a few of the more relevant and substantial ones that I feel like are good to know about if you’re considering working with me.
+        </footer>
+      </article>
 
     <!-- Work -->
-      <div class="wrapper style2">
-        <article id="work">
+      <article id="work" class="wrapper style3">
+        <div class="container">
           <header>
             <h2>Things I've Worked On</h2>
           </header>
-          <div class="container">
-            <div class="row">
-              <div class="4u">
-                <article class="box style2">
-                  <a href="https://ckb-shopping-meyster.herokuapp.com" class="image featured" target="_blank">
-                    <img src="images/shopping-meyster.png" alt="Shopping list app screenshot." />
-                  </a>
-                  <h3>ShoppingMeyster</h3>
-                  <p>A simple shopping list app built with Rails.</p>
-                  <h4><a href="https://ckb-shopping-meyster.herokuapp.com" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/shopping-meyster" target="_blank">Source Code</a></h4>
-                </article>
-              </div>
-              <div class="4u">
-                <article class="box style2">
-                  <a href="todos/index.html" class="image featured" target="_blank"><img src="images/todo-app.png" alt="Todo app screenshot." /></a>
-                  <h3>Todo List</h3>
-                  <p>Basic todo list app built with Backbone.</p>
-                  <h4><a href="todos/index.html" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/todo-list" target="_blank">Source Code</a></h4>
-                </article>
-              </div>
-              <div class="4u">
-                <article class="box style2">
-                  <a href="https://conrad-cards.herokuapp.com/" class="image featured" target="_blank"><img src="images/trello-app.png" alt="Trello clone screenshot." /></a>
-                  <h3>Cards</h3>
-                  <p>A Trello-like application built with Express and Backbone.</p>
-                  <h4><a href="https://conrad-cards.herokuapp.com/" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/cards" target="_blank">Source Code</a></h4>
-                </article>
-              </div>
+          <div class="row">
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="https://github.com/atomicjolt/konbata" class="image featured" target="_blank">
+                  <img src="images/coding-screenshot.png" alt="GitHub logo." />
+                </a>
+                <h3>Konbata</h3>
+                <p>A Ruby gem which converts <a href="https://scorm.com/scorm-explained/">SCORM</a> packages and zipped PDFs into Canvas LMS courses. <i>(2017)</i></p>
+                <h4><a href="https://github.com/atomicjolt/konbata" target="_blank">Source Code</a></h4>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="https://ckb-shopping-meyster.herokuapp.com" class="image featured" target="_blank">
+                  <img src="images/shopping-meyster.png" alt="Shopping list app screenshot." />
+                </a>
+                <h3>ShoppingMeyster</h3>
+                <p>A simple shopping list app built with Rails. <i>(2017)</i></p>
+                <h4><a href="https://ckb-shopping-meyster.herokuapp.com" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/shopping-meyster" target="_blank">Source Code</a></h4>
+              </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="https://conrad-cards.herokuapp.com/" class="image featured" target="_blank">
+                  <img src="images/trello-app.png" alt="Trello clone screenshot." />
+                </a>
+                <h3>Cards</h3>
+                <p>A Trello-like application built with Express and Backbone. <i>(2016)</i></p>
+                <h4><a href="https://conrad-cards.herokuapp.com/" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/cards" target="_blank">Source Code</a></h4>
+              </article>
             </div>
           </div>
-          <footer>
-            <p>If you'd like to see a resume, you can check it out <a
-                href="files/resume.pdf" target="_blank">here</a>.</p>
-<!--            <a href="#contact" class="button big scrolly">Get in touch with me</a>-->
-          </footer>
-        </article>
-      </div>
+        </div>
 
-    <!-- About Me -->
-      <div class="wrapper style3">
-        <article id="about">
+        <footer class="content-section">
+          I've also worked on a number of proprietary projects that I can't list here. Feel free to check out my <a href="files/resume.pdf" target="_blank">resume</a> if you're interested in more details about my work history.
+        </footer>
+      </article>
+
+    <!-- About -->
+      <article id="about" class="wrapper style2">
+        <div class="container">
           <header>
             <h2>A Little More About Me</h2>
           </header>
-          <div class="container">
-            <div class="row">
-              <div class="4u">
-                <span class="image box"><img src="images/family.jpg" alt="" /></span>
-              </div>
-              <div class="8u">
-                <p>I absolutely love well-made, useful software that's
-                  enjoyable to work with. I love the power of software to solve
-                  problems and make our lives better. I enjoy the constant
-                  movement and progress that happens in the web development
-                  world and I appreciate that there's always something new to
-                  learn. I'm passionate about delivering quality work and doing
-                  my best to help people out.</p>
-                <p><i>When I'm not coding, I enjoy being outdoors, reading and hanging out with my wife and kids.</i></p>
-              </div>
+          <div class="row">
+            <div class="col-4 col-12-small">
+              <span class="image box"><img src="images/family_tall.jpg" alt="" /></span>
+            </div>
+            <div class="col-8 col-12-small">
+              <p>I've been married to my wonderful wife since 2013. We have 2 delightful (and
+              sometimes taxing) children with a third on the way. Our son Aiden is 4 years old and our
+              daughter Teshia is 2. Our baby is due at the end of 2019.</p>
+              <p>I'm a devout Christian, and I'm actively involved in <a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">my church</a>.<p>
+              <p>Outside of development, some things I really enjoy learning
+              about are <a href="https://www.amazon.com/1776-David-McCullough/dp/0743226720" target="_blank">history</a>,
+              government, nutrition and <a href="https://www.amazon.com/Self-Driven-Child-Science-Giving-Control/dp/0735222525/" target="_blank">human relationships</a>.</p>
+              <p>Some of my hobbies include biking, reading and <a href="https://www.antscanada.com/" target="_blank">ant keeping</a>.</p>
             </div>
           </div>
-        </article>
-      </div>
+        </div>
+      </article>
 
     <!-- Contact -->
-      <div class="wrapper style4">
-        <article id="contact" class="container small">
+      <article id="contact" class="wrapper style4">
+        <div class="container medium">
           <header>
             <h2>Feel free to get in touch.</h2>
-            <p>Questions, comments or anything web development related. I'd be happy to hear from you. </p>
-            <hr>
+            <p>Questions, comments or anything web development related. I'd be happy to hear from you.</p>
           </header>
-          <div>
-            <div class="row">
-              <div class="12u">
-                <h3>Email &amp; Phone</h3>
-                <ul id="contact-info">
-                  <li><a href="mailto:conradbeach@protonmail.com">conradbeach@protonmail.com</a></li>
-                  <li><a href="tel:435-232-9842">(435)232-9842</a></li>
-                </ul>
-                <h3>Find me on...</h3>
-                <ul class="social">
-                  <li><a href="https://github.com/conradbeach" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-                  <!--
-                  <li><a href="#" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-                  <li><a href="#" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                  <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                  <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-                  <li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-                  <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                  <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-                  <li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-                  <li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-                  <li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-                  <li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-                  <li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-                  <li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-                  <li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-                  <li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-                  -->
-                </ul>
-                <hr />
-              </div>
+          <div class="row">
+            <div class="col-12">
+              <h3>Email &amp; Phone</h3>
+              <ul id="contact-info">
+                <li><a href="mailto:conradbeach@protonmail.com">conradbeach@protonmail.com</a></li>
+                <li><a href="tel:435-232-9842">(435)232-9842</a></li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <h3>Send Me a Message</h3>
+              <form method="POST" action="https://formspree.io/conradbeach@protonmail.com">
+                <div class="row">
+                  <div class="col-6 col-12-small">
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                  </div>
+                  <div class="col-6 col-12-small">
+                    <input type="text" name="email" id="email" placeholder="Email" />
+                  </div>
+                  <div class="col-12">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" />
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <ul class="actions">
+                      <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-12">
+              <hr />
+              <h3>Find me on ...</h3>
+              <ul class="social">
+                <li><a href="https://github.com/conradbeach" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+              </ul>
+              <hr />
             </div>
           </div>
           <footer>
             <ul id="copyright">
-              <li>&copy;2016 Conrad Beach </li>
-              <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-              <li><a href="https://github.com/conradbeach/conradbeach.github.io" target="_blank">Source code for this site available here.</a></li>
+              <li>Design: <a href="https://html5up.net/miniport" target="_blank">Miniport by HTML5 UP</a></li>
+              <li>The source code for this site is available on <a href="https://github.com/conradbeach/conradbeach.github.io" target="_blank">GitHub</a>.</li>
             </ul>
           </footer>
-        </article>
-      </div>
+        </div>
+      </article>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+      <!-- Clicky Web Analytics -->
+      <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101196169);</script>
+      <script async src="//static.getclicky.com/js"></script>
+      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101196169ns.gif" /></p></noscript>
 
   </body>
 </html>
