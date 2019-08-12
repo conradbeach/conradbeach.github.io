@@ -249,8 +249,27 @@
                   <img src="images/case-notifications-screenshot.png" alt="Case Notifications app screenshot." />
                 </div>
                 <h3>Case Notifications</h3>
-                <p><i>2018</i></p>
-                <p>Case Notifications</p>
+                <p><i>2018, Journal Technologies</i></p>
+                <p>Case Notifications is an application that consumes event data
+                from courts (a hearing was scheduled, a document was filed,
+                etc.) and then summarizes and distributes that event data
+                to subscribers through SMS and email notifications.</p>
+                <p>I built a RESTful back-end using Rails which integrated with a
+                React front-end. I also built a companion AWS Lambda function
+                which notified the Case Notifications application when a new
+                data file had been uploaded to AWS S3. I also built an admin
+                interface using <a href="https://github.com/thoughtbot/administrate">
+                thoughtbot Administrate</a>. The user facing application was secured with
+                <a href="https://auth0.com/">Auth0</a>, and the admin interface was
+                secured with <a href="https://www.okta.com/">Okta</a> single sign-on.<p>
+                <p>One of the interesting parts of this project for me was the
+                performance optimization required. Some of the courts we
+                expected to integrate with could have tens of thousands of events
+                a day. I did work that optimized processing and
+                importing these large data files which improved the import time for
+                10,000 events from about 5 minutes to about 4 seconds.<p>
+                <p><strong>Primary Technologies:</strong> Rails 5, AWS Lambda,
+                REST API, RSpec</p>
               </article>
             </div>
 
