@@ -213,10 +213,26 @@
                   <img src="images/coding-screenshot.png" alt="Code" />
                 </div>
                 <h3>Temperature Alert</h3>
-                <p><i>2019 - In Progress</i></p>
-                <p>Temperature Alert</p>
+                <p><i>2019, Personal Project (WIP)</i></p>
+                <p>Temperature Alert is a small API only application that sends
+                SMS notifications to users when the temperature in their
+                area hits a certain temperature based on one or more configured
+                alert thresholds.</p>
+                <p>For example, I keep my windows open at night during the
+                summer to let in the cool night air, and I use Temperature Alert
+                to remind me to close the windows once it gets hot
+                enough outside.</p>
+                <p>The back-end logic for configuring alerts and delivering
+                notifications is complete, but the API is not. Database records
+                have to be manually created with the Rails console.</p>
+                <p>I'm building the application with Rails 6 and testing it with
+                RSpec. SMS notifications are delivered via AWS SNS.</p>
+                <p><strong>Primary Technologies:</strong> Rails 6, AWS SNS, REST
+                API, RSpec</p>
                 <h4>
-                  <a href="https://github.com/conradbeach/temperature_alert" target="_blank">Repo</a>
+                  <a href="https://github.com/conradbeach/temperature_alert" target="_blank">Repo</a> |
+                  <a href="https://github.com/conradbeach/temperature_alert/blob/master/lib/weather.rb" target="_blank">Code Sample</a> |
+                  <a href="https://github.com/conradbeach/temperature_alert/blob/master/spec/models/alert_spec.rb" target="_blank">Spec Sample</a>
                 </h4>
               </article>
             </div>
