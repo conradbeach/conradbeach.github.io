@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Conrad Beach | Web Developer</title>
+    <title>Conrad Beach | Back-end Developer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -16,7 +16,7 @@
     <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li class="logo"><a href="#top">Conrad Beach | Web Developer</a></li>
+          <li class="logo"><a href="#top">Conrad Beach | Back-end Developer</a></li>
         </ul>
         <ul>
           <li><a href="#beliefs">Beliefs</a></li>
@@ -207,41 +207,214 @@
             <h2>Things I've Worked On</h2>
           </header>
           <div class="row">
-            <div class="col-4 col-6-medium col-12-small">
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <a href="https://github.com/conradbeach/temperature_alert" class="image featured" target="_blank">
+                  <img src="images/coding-screenshot.png" alt="Code" />
+                </a>
+                <h3><a href="https://github.com/conradbeach/temperature_alert" target="_blank">Temperature Alert</a></h3>
+                <p><i>2019, Personal Project (WIP)</i></p>
+                <p>Temperature Alert is a small API only application that sends
+                SMS notifications to users when the temperature in their
+                area hits a certain temperature based on one or more configured
+                alert thresholds.</p>
+                <p>For example, I keep my windows open at night during the
+                summer to let in the cool night air, and I use Temperature Alert
+                to remind me to close the windows once it gets hot
+                enough outside.</p>
+                <p>The back-end logic for configuring alerts and delivering
+                notifications is complete, but the API is not. Database records
+                have to be manually created with the Rails console.</p>
+                <p>I'm building the application with Rails 6 and testing it with
+                RSpec. SMS notifications are delivered via AWS SNS.</p>
+                <p><strong>Primary Technologies:</strong> Rails 6, AWS SNS, REST
+                API, RSpec</p>
+                <h4>
+                  <a href="https://github.com/conradbeach/temperature_alert" target="_blank">Repo</a> |
+                  <a href="https://github.com/conradbeach/temperature_alert/blob/master/lib/weather.rb" target="_blank">Code Sample</a> |
+                  <a href="https://github.com/conradbeach/temperature_alert/blob/master/spec/models/alert_spec.rb" target="_blank">Spec Sample</a>
+                </h4>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <div class="image featured">
+                  <img src="images/journal-tech-logo.png" alt="Journal Technologies logo" />
+                </div>
+                <h3>Cloud Accounting</h3>
+                <p><i>2019, <a href="https://journaltech.com/" target="_blank">Journal Technologies</a></i></p>
+                <p>Cloud Accounting is an API only application that serves as a
+                central storage location for all payment transactions from other
+                applications in Journal Technologies' cloud suite.</p>
+                <p>Prior to building Cloud Accounting, each individual
+                application stored transaction information. By instead storing
+                all transactions in a central place, we did complicate the
+                implementation for the other applications in some ways because they now had
+                an additional dependency to interact with, but we improved the
+                security of the financial information and we made life easier
+                for the people in accounting because they only had to go to one
+                place when they needed any financial data.</p>
+                <p>I was primarily responsible for building the application. I
+                used Rails to build the REST API, and I used 
+                <a href="https://github.com/zipmark/rspec_api_documentation" target="_blank">rspec_api_documentation</a>
+                to document it. I also built an admin interface using thoughtbot
+                <a href="https://github.com/thoughtbot/administrate" target="_blank">Administrate</a>.
+                The API was secured using token based
+                authentication and the admin interface was secured with
+                <a href="https://www.okta.com/" target="_blank">Okta</a> single sign-on.</p>
+                <p><strong>Primary Technologies:</strong> Rails 5, REST API,
+                RSpec</p>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <div class="image featured">
+                  <img src="images/case-notifications-screenshot.png" alt="Case Notifications app screenshot." />
+                </div>
+                <h3>Case Notifications</h3>
+                <p><i>2018, <a href="https://journaltech.com/" target="_blank">Journal Technologies</a></i></p>
+                <p>Case Notifications is an application that consumes event data
+                from courts (a hearing was scheduled, a document was filed,
+                etc.) and then summarizes and distributes that event data
+                to subscribers through SMS and email notifications.</p>
+                <p>I built a RESTful back-end using Rails which integrated with a
+                React front-end. I also built a companion AWS Lambda function
+                which notified the Case Notifications application when a new
+                data file had been uploaded to AWS S3. I also built an admin
+                interface using thoughtbot
+                <a href="https://github.com/thoughtbot/administrate" target="_blank">Administrate</a>.
+                The user facing application was secured with
+                <a href="https://auth0.com/" target="_blank">Auth0</a>, and the admin interface was
+                secured with <a href="https://www.okta.com/" target="_blank">Okta</a> single sign-on.<p>
+                <p>One of the interesting parts of this project for me was the
+                performance optimization required. Some of the courts we
+                expected to integrate with could have tens of thousands of events
+                a day. I did work that optimized processing and
+                importing these large data files which improved the import time for
+                10,000 events from about 5 minutes to about 4 seconds.<p>
+                <p><strong>Primary Technologies:</strong> Rails 5, AWS Lambda,
+                REST API, RSpec</p>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <a href="https://madera.epay-it.com/en" class="image featured" target="_blank">
+                  <img src="images/epayit-screenshot.jpg" alt="ePayIt application" />
+                </a>
+                <h3><a href="https://madera.epay-it.com/en" target="_blank">ePayIt</a></h3>
+                <p><i>2018, <a href="https://journaltech.com/" target="_blank">Journal Technologies</a></i></p>
+                <p>ePayIt is a payment system designed to integrate with courts. It allows users to pay fines, pay fees, make payments on payment plans and perform other financial transactions associated with the court.</p>
+                <p>I primarily did back-end Rails development, but I also did a little front-end development and some internationalization. I also spent a lot of time improving the test coverage for the application.<p>
+                <p><strong>Primary Technologies:</strong> Rails 5, RSpec</p>
+                <h4><a href="https://madera.epay-it.com/en" target="_blank">Live App</a></h4>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <a href="https://dailyjournal.com/" class="image featured" target="_blank">
+                  <img src="images/daily-journal-screenshot.jpg" alt="Daily Journal website" />
+                </a>
+                <h3><a href="https://dailyjournal.com/" target="_blank">Daily Journal</a></h3>
+                <p><i>2018, <a href="https://journaltech.com/" target="_blank">Journal Technologies</a></i></p>
+                <p>DailyJournal.com is the official website for the Daily
+                Journal news corporation. They provide legal news for law
+                professionals in California.</p>
+                <p>I spent my time fixing bugs and adding
+                small features. I also found and fixed a number of security
+                vulnerabilities. Another teammate and I
+                dramatically improved the test coverage of the application.</p>
+                <p><strong>Primary Technologies:</strong> Rails 4, HTML, RSpec</p>
+                <h4><a href="https://dailyjournal.com/" target="_blank">Live App</a></h4>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
+              <article class="box style2">
+                <div class="image featured">
+                  <img src="images/atomic-jolt-logo.png" alt="Atomic Jolt logo" />
+                </div>
+                <h3>MIT Sloan School of Management Canvas Integration</h3>
+                <p><i>2017, <a href="https://www.atomicjolt.com/" target="_blank">Atomic Jolt</a> 
+                  & <a href="https://mitsloan.mit.edu/" target="_blank">MIT Sloan School of Management</a></i><p>
+                <p>This application was built for the MIT Sloan School of
+                Management. It syncs student and course data from an
+                existing system to Sloan's Canvas LMS instance. Syncing
+                primarily happens via scheduled jobs but can also be done 
+                through one-off jobs.</p>
+                <p>The application makes extensive use of asynchronous
+                background jobs for both the one-off and scheduled sync tasks.</p>
+                <p>I did full-stack development on the project. Myself and
+                another team member built a Rails back-end and a React, Redux
+                front-end.</p>
+                <p>The front-end is a dashboard that allows administrators to
+                see which jobs are running, manage scheduled jobs and
+                allows them to execute one-off jobs.</p>
+                <p><strong>Primary Technologies:</strong> Rails 5, React, Redux,
+                HTML, CSS, RSpec, Jest</p>
+              </article>
+            </div>
+
+            <div class="col-6 col-12-small">
               <article class="box style2">
                 <a href="https://github.com/atomicjolt/konbata" class="image featured" target="_blank">
-                  <img src="images/coding-screenshot.png" alt="GitHub logo." />
+                  <img src="images/atomic-jolt-logo.png" alt="Atomic Jolt logo" />
                 </a>
-                <h3>Konbata</h3>
-                <p>A Ruby gem which converts <a href="https://scorm.com/scorm-explained/">SCORM</a> packages and zipped PDFs into Canvas LMS courses. <i>(2017)</i></p>
-                <h4><a href="https://github.com/atomicjolt/konbata" target="_blank">Source Code</a></h4>
+                <h3><a href="https://github.com/atomicjolt/konbata" target="_blank">Konbata</a></h3>
+                <p><i>2017, <a href="https://www.atomicjolt.com/" target="_blank">Atomic Jolt</a></i><p>
+                <p>Konbata is a Ruby gem which converts 
+                <a href="https://scorm.com/scorm-explained/" target="_blank">SCORM</a> packages and zipped PDFs into 
+                <a href="https://www.instructure.com/canvas/" target="_blank">Canvas LMS</a> courses. It can generate an
+                <a href="https://www.imsglobal.org/cc/index.html" target="_blank">.imscc file</a>
+                (a standard learning management system file type) and also upload that
+                .imscc to create a course in a Canvas instance. Konbata was designed 
+                to process interactive and non-interactive SCORM packages 
+                along with zip archives containing PDF files.</p>
+                <p>I wrote the large majority of the code for the gem along with
+                creating the documentation.</p>
+                <p><strong>Primary Technologies:</strong> Ruby, RSpec</p>
+                <h4>
+                  <a href="https://github.com/atomicjolt/konbata" target="_blank">Repo</a> |
+                  <a href="https://github.com/atomicjolt/konbata/blob/master/lib/konbata.rb" target="_blank">Code Sample</a> |
+                  <a href="https://github.com/atomicjolt/konbata/blob/master/spec/error_logger_spec.rb" target="_blank">Spec Sample</a>
+                </h4>
               </article>
             </div>
-            <div class="col-4 col-6-medium col-12-small">
+
+            <div class="col-6 col-12-small">
               <article class="box style2">
-                <a href="https://ckb-shopping-meyster.herokuapp.com" class="image featured" target="_blank">
-                  <img src="images/shopping-meyster.png" alt="Shopping list app screenshot." />
+                <a href="https://github.com/atomicjolt/senkyoshi" class="image featured" target="_blank">
+                  <img src="images/atomic-jolt-logo.png" alt="Atomic Jolt logo" />
                 </a>
-                <h3>ShoppingMeyster</h3>
-                <p>A simple shopping list app built with Rails. <i>(2017)</i></p>
-                <h4><a href="https://ckb-shopping-meyster.herokuapp.com" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/shopping-meyster" target="_blank">Source Code</a></h4>
-              </article>
-            </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <article class="box style2">
-                <a href="https://conrad-cards.herokuapp.com/" class="image featured" target="_blank">
-                  <img src="images/trello-app.png" alt="Trello clone screenshot." />
-                </a>
-                <h3>Cards</h3>
-                <p>A Trello-like application built with Express and Backbone. <i>(2016)</i></p>
-                <h4><a href="https://conrad-cards.herokuapp.com/" target="_blank">Live App</a> | <a href="https://github.com/conradbeach/cards" target="_blank">Source Code</a></h4>
+                <h3><a href="https://github.com/atomicjolt/senkyoshi" target="_blank">Senkyoshi</a></h3>
+                <p><i>2017, <a href="https://www.atomicjolt.com/" target="_blank">Atomic Jolt</a></i><p>
+                <p>Senkyoshi is a Ruby gem which converts exported 
+                <a href="https://www.blackboard.com/blackboard-learn/index.html" target="_blank">Blackboard</a>
+                packages into <a href="https://www.instructure.com/canvas/" target="_blank">Canvas LMS</a>
+                <a href="https://www.imsglobal.org/cc/index.html" target="_blank">.imscc</a>
+                packages. It also allows you to upload those converted packages to a Canvas instance.</p>
+                <p>At the time, Senkyoshi was a superior alternative to the
+                official Canvas converter from Instructure offering better
+                conversion of Blackboard content. Perhaps it still is.</p>
+                <p>My contributions to this project were limited. I fixed bugs,
+                added small additional features and cleaned up the documentation
+                a bit.</p>
+                <p><strong>Primary Technologies:</strong> Ruby, RSpec</p>
+                <h4>
+                  <a href="https://github.com/atomicjolt/senkyoshi" target="_blank">Repo</a> |
+                  <a href="https://github.com/atomicjolt/senkyoshi/blob/master/lib/senkyoshi/models/link.rb" target="_blank">Code Sample</a> |
+                  <a href="https://github.com/atomicjolt/senkyoshi/pull/74" target="_blank">PR Sample</a>
+                </h4>
               </article>
             </div>
           </div>
         </div>
 
         <footer class="content-section">
-          I've also worked on a number of proprietary projects that I can't list here. Feel free to check out my <a href="files/resume.pdf" target="_blank">resume</a> if you're interested in more details about my work history.
+          Feel free to check out my <a href="files/resume.pdf" target="_blank">resume</a> if you're interested in more details about my work history.
         </footer>
       </article>
 
@@ -253,11 +426,11 @@
           </header>
           <div class="row">
             <div class="col-4 col-12-small">
-              <span class="image box"><img src="images/family_tall.jpg" alt="" /></span>
+              <span class="image box"><img src="images/family_tall.jpg" alt="Family photo" /></span>
             </div>
             <div class="col-8 col-12-small">
               <p>I've been married to my wonderful wife since 2013. We have 2 delightful (and
-              sometimes taxing) children with a third on the way. Our son Aiden is 4 years old and our
+              sometimes taxing) children with a third on the way. Our son Aiden is 4 years old, and our
               daughter Teshia is 2. Our baby is due at the end of 2019.</p>
               <p>I'm a devout Christian, and I'm actively involved in <a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">my church</a>.<p>
               <p>Outside of development, some things I really enjoy learning
