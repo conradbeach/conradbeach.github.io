@@ -1287,11 +1287,14 @@ body > article {
 #contact footer {
   font-size: 0.9em; }
 
-#contact-info a {
-  color: inherit;
-  text-decoration: none; }
-#contact-info li {
-  list-style: none; }
+#contact-info {
+  padding-left: 0; }
+  #contact-info a {
+    color: inherit;
+    text-decoration: none; }
+  #contact-info li {
+    list-style: none;
+    padding-left: 0; }
 
 /* Copyright */
 #copyright {
