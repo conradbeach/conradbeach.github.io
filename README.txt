@@ -30,3 +30,18 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+# Additions by Conrad
+
+To compile `main.sass` into `main.css` and `main.css.map`, run:
+```
+sass assets/sass/main.scss assets/css/main.css
+```
+
+If you don't have Sass installed, you can install it with Brew:
+```
+brew install sass/sass/sass
+```
+
+This installs [Dart Sass](https://sass-lang.com/install).
