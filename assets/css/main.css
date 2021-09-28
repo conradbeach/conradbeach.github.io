@@ -1269,6 +1269,8 @@ body > article {
 #top {
   padding: 10em 0 10em 0;
   text-align: left; }
+  #top header {
+    margin-top: 6rem; }
   #top .image {
     border-radius: 100%;
     width: 20em;
@@ -1358,7 +1360,9 @@ body > article {
     text-align: center;
     padding: 5em 0; }
     #top .image {
-      margin: 0 auto 2em auto; } }
+      margin: 0 auto 2em auto; }
+    #top header {
+      margin-top: 0; } }
 /* Small */
 @media screen and (max-width: 736px) {
   /* Basic */

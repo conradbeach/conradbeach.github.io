@@ -877,6 +877,10 @@
     padding: 10em 0 10em 0;
     text-align: left;
 
+    header {
+      margin-top: 6rem;
+    }
+
     .image {
       border-radius: 100%;
       width: 20em;
@@ -1016,6 +1020,10 @@
 
         .image {
           margin: 0 auto 2em auto;
+        }
+
+        header {
+          margin-top: 0;
         }
       }
 
